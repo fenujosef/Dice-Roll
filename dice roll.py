@@ -7,7 +7,7 @@ window.geometry("500x360")
 window.title("Dice Roll")
 
 
-dice = ["dice1.png","dice2.png","dice3.png","dice4.png","dice5.png","dice6.png"]
+dice = ["images/dice1.png","images/dice2.png","images/dice3.png","images/dice4.png","images/dice5.png","images/dice6.png"]
 image1 = ImageTk.PhotoImage(Image.open(random.choice(dice)))
 image2 = ImageTk.PhotoImage(Image.open(random.choice(dice)))
 
